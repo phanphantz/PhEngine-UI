@@ -7,8 +7,6 @@
   "dependencies": {
     "com.phun.phengine.core": "",
     "com.phun.phengine.sound": "",
-    "com.unity.textmeshpro": "",
-    "com.demigiant.dotween": "",
     "com.phun.phengine.motion": ""
   },
   "repository": {
