@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a757e80eb43864e9fba6f3158f43d1, type: 3}
+  m_Name: UIPanelDatabase
+  m_EditorClassIdentifier: 
+  references:
+  - loadId: UIDimmer
+    assetToLoad: {fileID: 8800627997373280150, guid: 9efddf7f792cd834cb533d919ed4721e, type: 3}
+  - loadId: UIDialogBox
+    assetToLoad: {fileID: 1405941194587192223, guid: 93a35c4fa74dd3b43bd668cbd5055e14, type: 3}
+  - loadId: UILoadingScreen
+    assetToLoad: {fileID: 6839784034391667112, guid: e4899b0a70658e846b4fd4c87a92686d, type: 3}
+  - loadId: UISetting
+    assetToLoad: {fileID: 1405941194587192223, guid: 9e21fe8b257db5644b069cbd4bfdf31c, type: 3}
+  - loadId: UIHomeMain
+    assetToLoad: {fileID: 7201205743937465522, guid: e4df2f66e796cf94696b554ec03bd5f2, type: 3}
+  - loadId: UITutorialDialogPanel
+    assetToLoad: {fileID: 65667035086209352, guid: fdbb6eef5b3008d419286ba4beea5b6a, type: 3}
+  resourceDatabase: {fileID: 0}

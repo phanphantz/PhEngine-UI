@@ -1,0 +1,20 @@
+{
+  "name": "com.phun.phengine.ui",
+  "displayName": "PhEngine UI",
+  "version": "0.1.1",
+  "description": "PhEngine UI package",
+  "keywords": [],
+  "dependencies": {
+    "com.phun.phengine.core": "",
+    "com.phun.phengine.sound": "",
+    "com.unity.textmeshpro": "",
+    "com.demigiant.dotween": "",
+    "com.phun.phengine.motion": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phanphantz/PhEngine-UI"
+  },
+  "license": "MIT",
+  "author": "Phun Peeticharoenthum"
+}

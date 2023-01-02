@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4a3e616505e4a3ca6e49352c5aeece3, type: 3}
+  m_Name: UITextValidation_SymbolRemover
+  m_EditorClassIdentifier: 
+  isUsableInAutoValidation: 1
+  symbolsToRemove: 60007e00210040002300240025005e0026002a002800290013205f003d002b005b005d007b007d005c007c003b003a0018201c202c002e002f003c003e003f00a300a200ac20a5001e22a700b6002221a900ae00ba006022482248223f0ed700f7001a222d00

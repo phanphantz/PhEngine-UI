@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97fe4162c06a40289048de8dc3416cbf, type: 3}
+  m_Name: MotionBlueprint_TMP_TextTyper
+  m_EditorClassIdentifier: 
+  defaultSetting:
+    duration: 5
+    ease: 0
+    delay: 0
+    loops: 0
+    loopType: 0
+    isInverted: 0
+    durationType: 1
+    isSetTextOnStart: 1
+    startText: 'HAHA '
+    targetText: 'Test Ja Test Ja Test Ja Test Ja Test Ja Test Ja '

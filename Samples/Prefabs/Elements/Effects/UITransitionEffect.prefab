@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7706425763576396706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7706425763576396707}
+  - component: {fileID: 7706425763576396712}
+  - component: {fileID: 7706425763576396719}
+  - component: {fileID: 7706425763576396718}
+  - component: {fileID: 7706425763576396717}
+  - component: {fileID: 7706425763576396716}
+  - component: {fileID: 8658565515197112114}
+  - component: {fileID: 4700301252621536787}
+  m_Layer: 5
+  m_Name: UITransitionEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7706425763576396707
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706425763576396706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &7706425763576396712
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706425763576396706}
+  m_CullTransparentMesh: 1
+--- !u!114 &7706425763576396719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706425763576396706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66793a24128040669448c3493d783458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectTransition:
+    motions:
+    - targetGameObject: {fileID: 7706425763576396706}
+      concept:
+        blueprint: {fileID: 0}
+        settingOverrider: {fileID: 0}
+  isAutoPlayAfterFinishShowing: 1
+  isForceHideAfterEffectFinish: 1
+  isDestroyAfterFinishHiding: 1
+--- !u!114 &7706425763576396718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706425763576396706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41f1c5417c9d7ab4b84e531f83f60a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+  borderWidth: 0
+  falloffDistance: 1
+--- !u!114 &7706425763576396717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706425763576396706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8714c362c0c8a6449a9559a31cdab9a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0
+--- !u!114 &7706425763576396716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706425763576396706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf01e95061e8b744afb736046c04187, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTransition:
+    motions: []
+  isPlayOnAwake: 0
+--- !u!114 &8658565515197112114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706425763576396706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe625508a7dccdc43ab81ca58a52a6ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showTransition:
+    motions:
+    - targetGameObject: {fileID: 7706425763576396706}
+      concept:
+        blueprint: {fileID: 11400000, guid: 586a62266900e3f44b76a185d9916f47, type: 2}
+        settingOverrider: {fileID: 0}
+  hideTransition:
+    motions:
+    - targetGameObject: {fileID: 7706425763576396706}
+      concept:
+        blueprint: {fileID: 11400000, guid: d863a3fce92e6f8468b6cebd5881ada8, type: 2}
+        settingOverrider: {fileID: 0}
+--- !u!114 &4700301252621536787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7706425763576396706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a0d0d13b57ddd4784d2ce6dc0f99e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showAndHideSwitch: {fileID: 8658565515197112114}
+  selectionSwitch: {fileID: 0}

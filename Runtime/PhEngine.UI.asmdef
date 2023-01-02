@@ -1,0 +1,21 @@
+{
+    "name": "PhEngine.UI",
+    "rootNamespace": "",
+    "references": [
+        "PhEngine.Core",
+        "PhEngine.Core.AssetBox",
+        "PhEngine.Sound",
+        "Unity.TextMeshPro",
+        "DOTween.Modules",
+        "PhEngine.Motion"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

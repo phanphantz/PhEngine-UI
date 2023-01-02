@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021509809b7f1b54498d3f62c6caa42c, type: 3}
+  m_Name: UIPanelLayerPriority
+  m_EditorClassIdentifier: 
+  priorities:
+  - {fileID: 11400000, guid: 35c0ba6b29864d345ac47231833f6f0d, type: 2}
+  - {fileID: 11400000, guid: 736e41dadaa918d40bf3bd4e2d9fba77, type: 2}
+  - {fileID: 11400000, guid: 2428db425ed6ec3469299367fe6e24e7, type: 2}
+  - {fileID: 11400000, guid: 6473f5c8357503446978a60f32e9b0d4, type: 2}
