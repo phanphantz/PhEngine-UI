@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "description": "PhEngine UI package",
   "keywords": [],
-  "dependencies": {
+  "gitDependencies": {
     "com.phun.phengine.core": "https://github.com/phanphantz/PhEngine-Core.git",
     "com.phun.phengine.sound": "https://github.com/phanphantz/PhEngine-Sound.git",
     "com.phun.phengine.motion": "https://github.com/phanphantz/PhEngine-Motion.git"
