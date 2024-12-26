@@ -5,9 +5,9 @@
   "description": "PhEngine UI package",
   "keywords": [],
   "dependencies": {
-    "com.phun.phengine.core": "",
-    "com.phun.phengine.sound": "",
-    "com.phun.phengine.motion": ""
+    "com.phun.phengine.core": "0.1.1",
+    "com.phun.phengine.sound": "0.1.1",
+    "com.phun.phengine.motion": "0.1.1"
   },
   "repository": {
     "type": "git",
